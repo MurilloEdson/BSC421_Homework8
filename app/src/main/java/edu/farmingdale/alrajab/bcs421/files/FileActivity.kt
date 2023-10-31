@@ -1,8 +1,8 @@
 package edu.farmingdale.alrajab.bcs421.files
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import edu.farmingdale.alrajab.bcs421.MainActivity
 import edu.farmingdale.alrajab.bcs421.databinding.ActivityFileBinding
 import java.io.PrintWriter

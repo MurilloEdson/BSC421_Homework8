@@ -1,10 +1,8 @@
 package edu.farmingdale.alrajab.bcs421.database
 
-import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import androidx.room.Room
+import androidx.appcompat.app.AppCompatActivity
 import edu.farmingdale.alrajab.bcs421.databinding.ActivityDatabaseBinding
 import kotlin.random.Random
 
@@ -25,7 +23,6 @@ class DatabaseActivity : AppCompatActivity() {
 
         binding.readData.setOnClickListener { readData() }
         binding.writeData.setOnClickListener { writeData() }
-
 
     }
 
